@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid red; */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav{
+    display: flex;
+    background-color: rgb(255,255,255);
+    border-bottom: rgb(0,0,0);
+    position: relative;
+    z-index: 2;
+   gap: 60px;
+    padding: 10px 0;
+    height: 8vh;
+}
+
+nav img{
+    width: 90px;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 18px;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li ul{
+    margin-top: -2px;
+
+}
+
+.section-two{
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 55vh;
+    padding-bottom: 55px;
+   
+    
+}
+
+.section-two div{
+    background-color: rgb(255,255,255);
+    width: 28%;
+    margin: 3.5% 2%;
+    padding: 25px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* overflow-wrap: break-word; */
+}
+
+.second-nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+}
+
+.first-content-section{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.second-content-section{
+    font-family: 'Assistant', sans-serif;
+}
+
+.section-one{
+    text-align: justify;
+    padding-top: 40px;
+}
+
+
+.section-three-border-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin: 0 25px;
+
+}
+
+.section-three div ul li{
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+
+.section-three div ul{
+    margin-bottom: 12px;
+}
+
+.section-three div ul li a {
+    text-decoration: none;
+    color: rgb(220,220,220);
+    font-family: 'Assistant', sans-serif; 
+    font-weight: bold;
+}
+
+.section-three div ul li a:hover{
+    color: 	rgb(0,0,0);
+}
+
+.section-three div ul li a.active{
+    color: 	rgb(0,0,0);
+}
+
+.section-three div ul{
+    display: flex;
+    gap: 10px;
+}
+
+.broad-selection{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 2em;
+    font-weight: bold;
+    
+
+}
+
+.choose-from{
+    font-family: 'Assistant', sans-serif; 
+}
+
+.courses-display{
+    border: 1px solid rgb(152,152,152);
+    width: auto;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.course-display-inner{
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Assistant', sans-serif; 
+    gap: 10px;
+    padding-top: 15px;
+  
+
+}
+
+.expand-your-career{
+    font-family: 'Assistant', sans-serif; 
+    font-size: 1.5em;
+    font-weight: bold;
+   
+}
+
+
+.btn-explore{
+    width: 10%;
+    padding: 10px 0;
+    background-color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 80%;
+    border: 1px solid rgb(0,0,0);
+    margin-bottom: 20px;
+}
+
+.btn-explore:hover,.btn-explore-more-topics:hover{
+    background-color: rgb(225,225,225);
+    cursor: pointer;
+}
+
+
+.image-of-courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+figure{
+    width: 24%;
+    margin: 0;
+   
+}
+
+.image-of-courses figure div img{
+    width: 100%;
+}
+
+.image-of-courses figure div{
+    width: 100%;
+}
+
+.image-of-courses figure div:hover{
+    color: rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+.section-four{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F9F8;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.learn-python{
+    font-weight: bold;
+
+}
+
+figcaption{
+    text-align: justify;
+    font-family: 'Assistant', sans-serif; 
+   
+}
+
+.ratings{
+    color: 	rgb(253, 204, 13);
+    font-weight: bold;
+}
+
+.ratings-total{
+    color: 	rgb(152,152,152);
+}
+
+.fa-star-first{
+    margin-left: 4px;
+}
+
+.amount{
+    font-weight: bold;
+}
+
+.strike-through-amount{
+    text-decoration:line-through;
+    color: rgb(152,152,152);
+}
+
+.best-seller{
+   background-color:pink;
+    text-decoration: none;
+}
+
+.first-course{
+    display: relative;
+}
+
+.overlay{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    background-color: rgb(0,0,0);
+}
+
+.add-border-to-course-image{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 3px;
+}
+
+.fa-play,.star-icon-section,.fa-infinity{
+    background-color: #d0d0d0;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-four{
+    font-family: 'Assistant', sans-serif; 
+    font-weight: bold;
+
+}
+
+.div-icon{
+    display: flex;
+}
+
+.icon-text{
+    display: inline-block;
+    margin: 10px 0 0 6px;
+}
+
+.students-are-viewing,.top-categories,.featured-topics{
+    font-family: 'Assistant', sans-serif; 
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 15px 0;
+
+}
+
+
+.section-five,.section-six{
+    margin: 0 25px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 20px;
+}
+
+.section-six{
+    margin-bottom: 20px;
+}
+
+.section-seven{
+    background-color: rgb(220,220,220);
+}
+
+.display-column-sections{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    gap: 25px;
+}
+
+.featured-topics-by-category{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+.list-of-courses-under-featured-category{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.display-featured-category-list-column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.display-featured-category-list-column li{
+    list-style-type: none;
+    font-family: 'Assistant', sans-serif; 
+    font-size: 1.3em;
+
+}
+
+.display-featured-category-list-column li a{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+.number-of-views-per-course{
+    color: rgb(152,152,152);
+    font-size: 0.8em;
+}
+
+.first-item-on-category-list{
+    font-weight: bold;
+}
+
+.btn-explore-more-topics{
+    width: 200px;
+    padding: 10px 0;
+    background-color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 1px solid rgb(0,0,0);
+    margin-bottom: 20px;
+}
+
+.eight{
+    background-color: rgb(255,255,255);
+
+}
+
+.become-an-instructor-today{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+img[src="/images/in1.jpg" ]{
+    margin: auto;
+}
+
+.become-an-instructor-write-up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    font-family: 'Assistant', sans-serif; 
+}
+
+.become-an-instructor-title{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+
+.become-an-instructor-sub-text{
+
+    font-size: 1.4em;
+    
+}
+
+
+.start-teaching-today{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    width: 200px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.section-nine{
+    background-color: #F9F9F8;
+}
+
+.section-nine-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    font-family: 'Assistant', sans-serif; 
+    padding: 20px 0;
+}
+
+.trusted-by-over,.first-content-seven{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.trusted-by-over-subtext{
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.teams-logo{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+.content-of-section-ten{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 70px 0;
+}
+
+img[src="/images/logo-udemy.svg"]{
+    width: 100px;
+}
+
+.business-with-logo{
+    font-size: 1.5em;
+    color: 	rgb(138,43,226);
+}
+
+.first-section-ten-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get-unlimited-access-to-top{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2em;
+}
+
+.btn-get-more-access-ten{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    width: 250px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.container-eleven{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-content-eleven{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-content-eleven{
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.second-content-eleven{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.3em; 
+}
+
+.content-eleven-button{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    width: 140px;
+    padding: 10px;
+    font-size: 1.2em;
+
+}
+
+footer{
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-family: 'Assistant', sans-serif;
+    padding: 40px;
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255,255,255);
+}
+
+
+.first-footer-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-footer-section ul li{
+    list-style-type: none;
+}
+
+.first-footer-section ul li a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    
+}
+
+.first-footer-section ul li a:hover{
+   text-decoration: underline;
+}
+
+.footer-globe{
+    margin: 0 10px;
+    
+}
+
+.english{
+    border: 1px solid rgb(255,255,255);
+   width: 100px;
+   text-align: center;
+   padding: 10px;
+}
+
+
+.second-footer-section{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 120px;
+}
+
+
+
+
