@@ -30,10 +30,25 @@ nav ul{
     display: flex;
     margin-top: 18px;
     gap: 20px;
+    font-family: 'Assistant', sans-serif;
 }
 
 nav ul li {
     list-style-type: none;
+
+}
+
+li input[type="text"]{
+    width: 550px;
+    padding: 10px;
+    border-radius: 1.2em;
+    margin-bottom: 50px;
+
+}
+
+li input[type="text"]::placeholder{
+    font-weight: normal;
+    font-size: 1.2em;
 }
 
 nav ul li ul{
