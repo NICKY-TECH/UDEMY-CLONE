@@ -49,13 +49,13 @@ li input[type="text"]{
     padding: 10px;
     border-radius: 1.2em;
     margin-top: -30px;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid rgb(0,0,0,0.6);
 
 }
 
 nav ul li a{
     text-decoration: none;
-    color: rgba(0,0,0,0.3);
+    color: rgb(0,0,0);
 }
 
 li input[type="text"]::placeholder{
