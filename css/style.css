@@ -16,7 +16,7 @@ nav{
     border-bottom: rgb(0,0,0);
     position: relative;
     z-index: 2;
-   gap: 60px;
+    gap: 23px;
     padding: 10px 0;
     height: 8vh;
 }
@@ -26,15 +26,21 @@ nav img{
     margin-left: 20px;
 }
 
+nav img:hover{
+    cursor: pointer;
+}
+
 nav ul{
     display: flex;
     margin-top: 18px;
-    gap: 20px;
+    gap: 25px;
     font-family: 'Assistant', sans-serif;
 }
 
 nav ul li {
+    overflow-wrap: normal;
     list-style-type: none;
+    font-size: 1em;
 
 }
 
@@ -42,13 +48,52 @@ li input[type="text"]{
     width: 550px;
     padding: 10px;
     border-radius: 1.2em;
-    margin-bottom: 50px;
+    margin-top: -30px;
 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0,0,0);
 }
 
 li input[type="text"]::placeholder{
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 0.9em;
+    font-family: poppins; 
+}
+
+.nav-globe{
+    border: 2px solid rgb(0,0,0);
+    padding: 3px; 
+    margin-top: -30px; 
+}
+
+.login,.signup{
+   border: 2px solid rgb(0,0,0);
+   width: 20%;
+   text-align: center;
+   padding-top: 2px;
+   height: 30px;
+   margin-top: -12px;
+}
+
+.udemy-nav-business,.teach-on-udemy{
+    margin-top: -10px;
+    overflow-wrap: normal;
+}
+
+.login:hover{
+    background-color: rgba(225,225,225,0.2);
+}
+
+li.signup{
+    background-color: rgb(0,0,0);
+}
+
+.signup a{
+    color: rgb(255,255,255);
+
 }
 
 nav ul li ul{
@@ -68,7 +113,7 @@ nav ul li ul{
     
 }
 
-.section-two div{
+.section-two-content{
     background-color: rgb(255,255,255);
     width: 28%;
     margin: 3.5% 2%;
@@ -211,6 +256,11 @@ figure{
    
 }
 
+.first-course{
+    width:100%;
+    position: relative;
+}
+
 .image-of-courses figure div img{
     width: 100%;
 }
@@ -266,8 +316,10 @@ figcaption{
 }
 
 .best-seller{
-   background-color:pink;
+   background-color: rgb(218,165,32);
+   color: rgb(139,69,19);
     text-decoration: none;
+    padding: 1px 1px  3px;
 }
 
 .first-course{
@@ -593,6 +645,10 @@ footer{
 
 .footer-logo{
     width: 120px;
+}
+
+img[src="/images/lady-udemy-logo.svg"]{
+    width: 60%;
 }
 
 
